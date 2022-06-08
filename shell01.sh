@@ -5,7 +5,7 @@ create_solution()
     solution=$3
     mkdir $directory
     touch ./$directory/$name
-    echo $solution > $name
+    echo $solution > ./$directory/$name
 }
 
 create_solution test_folder test_file test_text
