@@ -27,7 +27,8 @@ tar -pxvf ./ex01/testShell00.tar
 ls -l ./ex01
 
 test ex02
-expect "drwx--xr-x 2 XX XX XX Jun 1 20:47 test0
+expect "result"
+echo "drwx--xr-x 2 XX XX XX Jun 1 20:47 test0
 -rwx--xr-- 1 XX XX 4 Jun 1 21:46 test1
 dr-x---r-- 2 XX XX XX Jun 1 22:45 test2
 -r-----r-- 2 XX XX 1 Jun 1 23:44 test3
@@ -67,7 +68,8 @@ echo ".ignorethis" > .gitignore
 bash ./ex06/git_ignore.sh | cat -e
 
 test ex07
-expect "Episode V, A NEW H0PE It is a period of civil war
+expect "result like this"
+echo "Episode V, A NEW H0PE It is a period of civil war
 Rebel spaceships, striking from a hidden base, have won their first victory against the evil Galactic Empire. 
 During the battle, Rebel spies managed to steal secret plans to the Empire's ultimate weapon, the STAR DEATH, an armored space station with enough power to destroy an entire planet.
 
