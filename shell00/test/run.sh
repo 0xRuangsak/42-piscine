@@ -1,20 +1,4 @@
-cd ../solution
-ls
-cd ex00
-bash ex00.sh
-cd ex01
-bash ex01.sh
-cd ex02
-bash ex02.sh
-cd ex04
-bash ex04.sh
-cd ex05
-bash ex05.sh
-cd ex06
-bash ex06.sh
-cd ex07
-bash ex07.sh
-cd ex08
-bash ex08.sh
-cd ex09
-bash ex09.sh
+for i in {0..9}
+do
+   bash ../solution/ex0$i/ex0$1.sh
+done
