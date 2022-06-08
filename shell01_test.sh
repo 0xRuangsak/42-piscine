@@ -11,7 +11,7 @@ test()
     echo " "
 
     echo expect answer
-    echo $expected
+    echo $result
     echo result
 
     bash ./$exam/file | cat -e
