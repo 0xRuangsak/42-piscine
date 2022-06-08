@@ -46,7 +46,7 @@ rm -d test2
 rm test3
 rm test4
 rm test5
-rm test6" ./ex02/clean.sh
+rm test6" > ./ex02/clean.sh
 
 #ex03
 mkdir ex03
