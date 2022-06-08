@@ -47,7 +47,7 @@ chmod 404 ./ex02/test5
 chmod -h 777 ./ex02/test6
 
 #zip
--cf exo2.tar ./ex02/*
+-cf ./ex02/exo2.tar ./ex02/*
 
 #ex03
 mkdir ex03
