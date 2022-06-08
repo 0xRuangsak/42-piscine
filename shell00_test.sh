@@ -23,7 +23,7 @@ cat ./ex00/z
 test ex01
 expect "-r--r-xr-x 1 XX XX 40 Jun 1 23:42 testShell00"
 rm ./ex01/testShell00
-tar -xvf ./ex01/testShell00.tar
+tar -pxvf ./ex01/testShell00.tar
 ls -l ./ex01
 
 test ex02
@@ -41,7 +41,7 @@ rm ./ex02/test3
 rm ./ex02/test4
 rm ./ex02/test5
 rm ./ex02/test6
-tar -pxf ./ex02/exo2.tar
+tar -pxvf ./ex02/exo2.tar
 ls -l ./ex02
 
 test ex03
