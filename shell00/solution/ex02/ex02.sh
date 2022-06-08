@@ -22,3 +22,12 @@ touch -t 202406012344.00 test3
 touch -t 202406012343.00 test4
 touch -t 202406012344.00 test5
 touch -ht 202406012220.00 test6
+
+#change permission
+chmod 715 test0
+chmod 714 test1
+chmod 504 test2
+chmod 404 test3
+chmod 641 test4
+chmod 404 test5
+chmod -h 777 test6
