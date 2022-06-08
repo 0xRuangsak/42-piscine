@@ -6,9 +6,9 @@ touch test3
 touch test4
 
 #edit the size
-echo "****" > test1
-echo "*" > test3
-echo "**" > test4
+echo "***" > test1
+echo "" > test3
+echo "*" > test4
 
 #link file
 ln test3 test5
