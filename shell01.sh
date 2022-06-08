@@ -11,7 +11,7 @@ create_solution()
 create_solution ex01 print_groups.sh "groups $FT_USER | tr ' ' ',' | tr -d '\n'"
 create_solution ex02 find_sh.sh "find . -type f -name '*.sh' | sed 's/\.sh$//' | tr -d " ""
 create_solution ex03 count_files.sh "find . | wc -l | tr -d " ""
-create_solution ex04 MAC.sh 'ifconfig -a | grep "ether " | awk "{print $2}"'
+create_solution ex04 MAC.sh 'ifconfig -a | grep "ether " | awk "{print $2}" | cut -d 5- | tr -d " "'
 mkdir ex05
 touch ./ex05/testfile
 echo 42 > ./ex05/testfile
