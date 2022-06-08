@@ -27,7 +27,6 @@ tar -pxvf ./ex01/testShell00.tar
 ls -l ./ex01
 
 test ex02
-expect "result"
 echo "drwx--xr-x 2 XX XX XX Jun 1 20:47 test0
 -rwx--xr-- 1 XX XX 4 Jun 1 21:46 test1
 dr-x---r-- 2 XX XX XX Jun 1 22:45 test2
@@ -35,6 +34,7 @@ dr-x---r-- 2 XX XX XX Jun 1 22:45 test2
 -rw-r----x 1 XX XX 2 Jun 1 23:43 test4
 -r-----r-- 2 XX XX 1 Jun 1 23:44 test5
 lrwxrwxrwx 1 XX XX 5 Jun 1 22:20 test6 -> test0"
+echo "**************************************************"
 rm -d ./ex02/test0
 rm ./ex02/test1
 rm -d ./ex02/test2
