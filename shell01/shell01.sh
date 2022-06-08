@@ -8,10 +8,10 @@ create_solution()
     echo $solution > ./$directory/$name
 }
 
-create_solution ex01 print_groups.sh "groups $FT_USER | tr ' ' ',' | tr -d '\n'"
-create_solution ex02 find_sh.sh "find . -type f -name '*.sh' | sed 's/\.sh$//'"
+#create_solution ex01 print_groups.sh "groups $FT_USER | tr ' ' ',' | tr -d '\n'"
+#create_solution ex02 find_sh.sh "find . -type f -name '*.sh' | sed 's/\.sh$//'"
 create_solution ex03 count_files.sh "find . | wc -l"
-create_solution ex04 MAC.sh 'ifconfig -a | grep "ether " | awk "{print $2}"'
+#create_solution ex04 MAC.sh 'ifconfig -a | grep "ether " | awk "{print $2}"'
 mkdir ex05
 touch ./ex05/testfile
 echo 42 > ./ex05/testfile
