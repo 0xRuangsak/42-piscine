@@ -13,9 +13,9 @@ create_solution ex02 find_sh.sh "find . -type f -name '*.sh' -printf "%f\n" | se
 create_solution ex03 count_files.sh "find . | wc -l"
 create_solution ex04 MAC.sh ifconfig -a | grep "ether " | awk '{print $2}'
 mkdir ex05
-touch testfile
-echo 42 > testfile
-mv testfile  \"\\\?\$\*'MaRViN'\*\$\?\\\"
+touch ./ex05/testfile
+echo 42 > ./ex05/testfile
+mv ./ex05/testfile  \"\\\?\$\*'MaRViN'\*\$\?\\\"
 create_solution ex06 skip.sh "ls -l | awk 'NR % 2 == 0'"
 create_solution ex07 r_dwssap.sh "cat /etc/passwd | sed -e 's/#.*//' -e 's/[ ^I]*$//' -e '/^$/ d' -e 's/:.*//g' \
 | tr '\n' ',' | rev | tr "," "\n" | sort -r | tr "\n" ","  \
