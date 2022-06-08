@@ -2,9 +2,9 @@ test()
 {
     exam=$1
     echo " "
-    echo $(for each in $(seq 0 100); do printf "*"; done)
+    echo "**************************************************"
     echo $exam
-    echo $(for each in $(seq 0 100); do printf "*"; done)
+    echo "**************************************************"
     echo " "
 }
 
