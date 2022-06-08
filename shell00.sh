@@ -39,15 +39,6 @@ chmod 641 ./ex02/test4
 chmod 404 ./ex02/test5
 chmod -h 777 ./ex02/test6
 
-#create clean file
-echo "rm -d test0
-rm test1
-rm -d test2
-rm test3
-rm test4
-rm test5
-rm test6" > ./ex02/clean.sh
-
 #ex03
 mkdir ex03
 echo "AAAAB3NzaC1yc2EAAAADAQABAAABgQDrDxg/OX/TKvq2XnW5oR7yo8SH17s3RVuB/Tc7HFzh+jPxvhPNDu5mZcuHRZxvnlkHKWWsd9JNc+esdgyt1bAQkKOF7pAxw/9Yi/4uNVNIjC/NA7nP35m/QO/i+mfucZs29heGsovruZirnEwqAuToGIiczAVha6oENP0tfmzrtC/vfMB+go4SJSeGBJAwXnsp9aKGib/F51b6yb3/RK+l/iWlhUyRYB0JgMP3PlaWmdieJ9e7FYsfBPPc8x+xMY2FK+oVcnf55wmn8uUbZg0XU/vHug45hGEx86JDlRaC7nf8iHc/5t/n5nPx+m9avHM/UyM0u4RilTlUD44963EC7ql3KMhek+Sy1GqOovgWCusWE9Q22T+c1P1OMAIuJqFtQJ2EX5Ir9dQtjLxhDYVBFTxEG3jHIQZL8djUAQFNR6w6rmZqt8IVnaIAk1CnWGYvdSseCloZYcj6U+Pful0YSgPt+wIzEtdMTgqkooIogM25y51WT0VF4C8rzbVg3cc=" > ./ex03/id_rsa_pub
