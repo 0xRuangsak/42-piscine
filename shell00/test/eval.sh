@@ -4,3 +4,4 @@ then
 echo ex00 OK
 else
 echo ex00 Wrong
+fi
