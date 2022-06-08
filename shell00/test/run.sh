@@ -1,5 +1,4 @@
-cd ..
-cd solution
+cd ../solution
 ls
 cd ex00
 bash ex00.sh
