@@ -20,4 +20,4 @@ create_solution ex06 skip.sh "ls -l | awk 'NR % 2 == 0'"
 create_solution ex07 r_dwssap.sh "cat /etc/passwd | sed -e 's/#.*//' -e 's/[ ^I]*$//' -e '/^$/ d' -e 's/:.*//g' \
 | tr '\n' ',' | rev | tr "," "\n" | sort -r | tr "\n" ","  \
 | sed -e 's/, */, /g' -e 's/.$//' -e 's/.\{3\}$//'"
-create_solution ex08 add_chelou.sh /"/echo "obase=13;ibase=5;" $FT_NBR1 + $FT_NBR2 | tr "\'" '0' | tr '\\\"\?\!mrdoc' "123401234" | sed 's/3/o/' | bc | tr '0123456789ABC' 'gtaio\ luSnemf'/"/
+ 
