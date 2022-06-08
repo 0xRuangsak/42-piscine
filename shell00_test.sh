@@ -90,5 +90,5 @@ bash ./ex08/clean ./ex08
 
 test ex09
 expect "42 file"
-echo "*****************************************42" > magic_test
-file -m ./ex09/ft_magic ./magic_test
+echo "*****************************************42" > ./ex09/magic_test
+file -m ./ex09/ft_magic ./ex09/magic_test
