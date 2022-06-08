@@ -1,4 +1,9 @@
-for i in {0..9}
-do
-   bash ../solution/ex0$i/ex0$1.sh
-done
+bash ../solution/ex00/ex00.sh
+bash ../solution/ex01/ex01.sh
+bash ../solution/ex02/ex02.sh
+bash ../solution/ex04/ex04.sh
+bash ../solution/ex05/ex05.sh
+bash ../solution/ex06/ex06.sh
+bash ../solution/ex07/ex07.sh
+bash ../solution/ex08/ex08.sh
+bash ../solution/ex09/ex09.sh
