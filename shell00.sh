@@ -1,6 +1,5 @@
 #ex00
 mkdir ex00
-touch ./ex00/z
 echo Z > ./ex00/z
 
 #ex01

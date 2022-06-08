@@ -18,12 +18,12 @@ expect()
 
 test ex00
 expect "Z"
-cat z
+cat ./ex00/z
 
 test ex01
 expect "-r--r-xr-x 1 XX XX 40 Jun 1 23:42 testShell00"
 rm ./ex01/testShell00
-tar -pxf ./ex01/testShell00.tar
+tar -xvf ./ex01/testShell00.tar
 ls -l ./ex01
 
 test ex02
@@ -89,4 +89,4 @@ bash ./ex08/clean ./ex08
 test ex09
 expect "42 file"
 echo "*****************************************42" > magic_test
-file -m ./ex09/ft_magic magic_test
+file -m ./ex09/ft_magic ./magic_test
