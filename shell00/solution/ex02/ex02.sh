@@ -5,4 +5,4 @@ mkdir test2
 touch test3
 touch test4
 ln test3 test5
-ln -h test0 test6
+ln -s test0 test6
