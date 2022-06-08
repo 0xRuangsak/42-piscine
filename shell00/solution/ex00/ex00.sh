@@ -1,1 +1,2 @@
-Z > z
+touch z
+echo Z > z
