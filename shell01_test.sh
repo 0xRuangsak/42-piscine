@@ -14,7 +14,7 @@ test()
     echo $result
     echo result
 
-    bash ./$exam/file | cat -e
+    bash ./$exam/$file | cat -e
     echo "**************************************************"
 }
 
