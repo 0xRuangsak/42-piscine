@@ -8,4 +8,4 @@ create_solution()
     echo $solution > ./$directory/$name
 }
 
-create_solution test_folder test_file test_text
+create_solution ex01 print_groups.sh "groups $FT_USER | tr ' ' ',' | tr -d '\n'"
