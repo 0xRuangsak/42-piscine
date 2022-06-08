@@ -35,13 +35,13 @@ dr-x---r-- 2 XX XX XX Jun 1 22:45 test2
 -r-----r-- 2 XX XX 1 Jun 1 23:44 test5
 lrwxrwxrwx 1 XX XX 5 Jun 1 22:20 test6 -> test0"
 echo "**************************************************"
-rm -d ./ex02/test0
-rm ./ex02/test1
-rm -d ./ex02/test2
-rm ./ex02/test3
-rm ./ex02/test4
-rm ./ex02/test5
-rm ./ex02/test6
+# rm -d ./ex02/test0
+# rm ./ex02/test1
+# rm -d ./ex02/test2
+# rm ./ex02/test3
+# rm ./ex02/test4
+# rm ./ex02/test5
+# rm ./ex02/test6
 tar -pxvf ./ex02/exo2.tar
 ls -l ./ex02
 
