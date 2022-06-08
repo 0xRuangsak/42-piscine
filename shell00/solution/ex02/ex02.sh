@@ -12,3 +12,4 @@ echo "${$(printf "%-4s" "*")// /*}" > test1
 echo "${$(printf "%-1s" "*")// /*}" > test3
 echo "${$(printf "%-2s" "*")// /*}" > test4
 echo "${$(printf "%-1s" "*")// /*}" > test5
+
