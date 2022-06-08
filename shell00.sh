@@ -84,4 +84,4 @@ echo 'find . -name "*~" -print -delete -o -name "#*#" -print -delete' > ./ex08/c
 
 #ex09
 mkdir ex09
-echo 42 string 42 42 file > ./ex09/ft_magic
+echo "41 string 42 42 file" > ./ex09/ft_magic
