@@ -20,3 +20,5 @@ create_solution ex06 skip.sh "ls -l | awk 'NR % 2 == 0'"
 create_solution ex07 r_dwssap.sh "cat /etc/passwd | sed -e 's/#.*//' -e 's/[ ^I]*$//' -e '/^$/ d' -e 's/:.*//g' \
 | tr '\n' ',' | rev | tr "," "\n" | sort -r | tr "\n" ","  \
 | sed -e 's/, */, /g' -e 's/.$//' -e 's/.\{3\}$//'"
+mkdir ex08
+cp add_chelou.sh ./ex08
