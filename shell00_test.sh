@@ -63,9 +63,9 @@ bash ./ex05/git_commit.sh | cat -e
 test ex06
 expect "lists all the existing files
 ignored by your GiT repository"
-touch .ignorethis
-echo ".ignorethis" > .gitignore
-bash ./ex06/git_ignore.sh | cat -e
+touch ./ex06/.ignorethis
+echo ".ignorethis" > ./ex06/.gitignore
+bash ./ex06/git_ignore.sh | cat -e ./ex06
 
 test ex07
 expect "result like this"
@@ -83,7 +83,7 @@ Princess Mehdi races home aboard her starship, custodian of the stolen plans tha
 cat ./ex07/b
 
 test ex08
-expect "nothing"
+expect "clean test~ and #test# file"
 touch ./ex08/test~
 touch ./ex08/#test#
 bash ./ex08/clean ./ex08
